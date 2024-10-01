@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Active::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: #1d81d3;
+    bottom: 10px;
+    left: 10%;
+  }
+/********************** Add some basic styling to the navigation ************************/
+.navbar {
+    padding: 1rem 2rem;
+}
+
+.logo-2 {
+    margin-left: -20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.offcanvas-body {
+    padding: 2rem;
+}
+
+.offcanvas-title {
+    font-size: 1.5rem;
+}
+
+#navbarSupportedContent>ul>li>a {
+    color: white;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 20px;
+    font-family: "Gilroy";
+    font-weight: bold;
+}
+
+#navbarSupportedContent-1>ul>li>a {
+    color: white;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 10px;
+    font-family: "Gilroy";
+    font-weight: bold;
+}
+
+#navbarSupportedContent-1 {
+    background-color: black;
+}
+
+#navbarSupportedContent-1>ul>li>a:hover {
+    color: #1d81d3;
+}
+
+/********************************************* NAVIGATION-HOVER=EFFECT ************************************/
+
+.left-underline-link a {
+    text-decoration: none;
+    position: relative;
+}
+
+.left-underline-link a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #1d81d3;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.4s ease-in-out;
+}
+
+.left-underline-link a:hover::before {
+    width: 80%;
+}
+
+/* =================================================================== GROUP 1 ================================================================ */
+
+#GROUP1 {
+    height: 100VH;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(IMAGES/ABOUTUS/ABOUT\ US\ BG.png);
+}
+
+#text1 {
+    color: white;
+    font-size: 156px;
+    text-align: center;
+    padding: 20%;
+}
+
+/* ======================================================================== GROUP 2 ==================================================================================== */
+
+#GROUP2 {
+    height: auto;
+    width: 100%;
+    background-color: #000922;
+}
+
+#text2 {
+    padding-top: 20px;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #2c8bd4;
+    font-weight: bold;
+    font-family: "Gilroy";
+    text-align: center;
+}
+
+#text3 {
+    padding-top: 20px;
+    width: 100%;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gilroy";
+    text-align: center;
+}
+
+#BOXS {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+/* ==== BOX 1 ====== */
+
+#BOXS #box1 {
+    padding: 20px;
+    width: 490px;
+    height: 334px;
+    border-radius: 15px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    align-items: center;
+}
+
+#BOXS #box1:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 20px rgba(44, 139, 212, 0.856));
+    background-color: #000000;
+    transition: 0.4s;
+}
+
+/* ==== BOX 2 ====== */
+
+#BOXS #box2 {
+    padding: 20px;
+    width: 490px;
+    height: 334px;
+    border-radius: 15px;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+
+#BOXS #box2:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 20px rgba(44, 139, 212, 0.856));
+    background-color: #000000;
+    transition: 0.4s;
+}
+
+/* ==== BOX 3 ====== */
+
+#BOXS #box3 {
+    padding: 20px;
+    width: 490px;
+    height: 334px;
+    border-radius: 15px;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+#BOXS #box3:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 20px rgba(44, 139, 212, 0.856));
+    background-color: #000000;
+    transition: 0.4s;
+}
+
+/* ============ TEXT 4 ====== */
+
+#text4 {
+    padding: 10px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gilroy";
+    text-align: center;
+}
+
+/* ============ TEXT 5 ====== */
+
+#text5 {
+    text-align: center;
+    width: 100%;
+    font-size: 19px;
+    color: #ffffff;
+    font-family: "Gilroy";
+}
+
+/* ================================================================== GROUP 3 ================================================== */
+
+#GROUP3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(IMAGES/ABOUTUS/group3\ bg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000922cd;
+}
+
+.texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text6 {
+    width: 40%;
+    font-size: 69px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gilroy";
+    text-align: center;
+}
+
+#text7 {
+    width: 30%;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gilroy";
+}
+
+/* ========= progress bar ======= */
+
+.G3-PROGRESSBAR {
+    padding: 3%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.G3-PROGRESSBAR .text {
+    padding: 20px;
+}
+
+.progressbar1 {
+    height: auto;
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar1 p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gilroy";
+}
+
+.progressbar2 {
+    height: auto;
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar2 p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gilroy";
+}
+
+.progressbar3 {
+    height: auto;
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar3 p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gilroy";
+}
+
+.progressbar4 {
+    height: auto;
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar4 p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gilroy";
+}
+
+.progress {
+    background: #000922;
+    justify-content: flex-start;
+    border-radius: 50%;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 60px;
+    width: 500px;
+}
+
+.progress-1 {
+    animation: load1 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #1d81d3;
+    height: 40px;
+    width: 0;
+}
+
+@keyframes load1 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 88%;
+    }
+}
+
+.progress-2 {
+    animation: load2 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #1d81d3;
+    height: 40px;
+    width: 0;
+}
+
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 77%;
+    }
+}
+
+.progress-3 {
+    animation: load3 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #1d81d3;
+    height: 40px;
+    width: 0;
+}
+
+@keyframes load3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+.progress-4 {
+    animation: load4 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #1d81d3;
+    height: 40px;
+    width: 0;
+}
+
+@keyframes load4 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+
+
+
+
+
+/* ================================================================== GROUP 4 ================================================== */
+
+
+#GROUP4 {
+    height: 160vh;
+    width: 100%;
+    background-color: #000922;
+}
+
+#GROUP4 .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#GROUP4 #text8 {
+    font-size: 57px;
+    text-transform: uppercase;
+    color: #2c8bd4;
+    font-weight: bold;
+    font-family: "Gilroy";
+    text-align: center;
+}
+
+#GROUP4 #text9 {
+    font-size: 69px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gilroy";
+    text-align: center;
+}
+
+#GROUP4 #text10 {
+    width: 40%;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gilroy";
+    text-align: center;
+}
+
+
+/* ========================= cards ==================== */
+.CARDS {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.CARDS .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.CARDS .container .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CARDS .container .card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.CARDS .container .card img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.CARDS .container .card .content {
+    position: absolute;
+    bottom: -160px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: bottom 0.5s;
+    transition-delay: 0.65s;
+}
+
+.CARDS .container .card:hover .content {
+    bottom: 0;
+    transition-delay: 0s;
+}
+
+.CARDS .container .card .content .contentBx h3 {
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 15px;
+    line-height: 1.1em;
+    transition: 0.5s;
+    transition-delay: 0.6s;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.CARDS .container .card:hover .content .contentBx h3 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.CARDS .container .card .content .contentBx h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+
+.CARDS .container .card .content .sci {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+}
+
+.CARDS .container .card .content .sci li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.2s * var(--i));
+}
+
+.CARDS .container .card:hover .content .sci li {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.CARDS .container .card .content .sci li a {
+    color: white;
+    font-size: 24px;
+}
+
+
+/************************************************* Register-Login  **********************************************************/
+.reg-log {
+    height: 250px;
+    width: 100%;
+    background-color: #2c8bd4;
+}
+
+#btn-det button {
+    padding: 12px;
+    border: none;
+    background-color: #1d81d3;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 150px;
+}
+
+/* ============================================= footer ========================================== */
+
+#fot-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+#fot-2 {
+    margin-top: 0px;
+    width: 25%;
+}
+
+#fot-3 {
+    width: 25%;
+}
+
+#fot-4 {
+    width: 25%;
+}
+
+#fot-img1 {
+    height: 80px;
+    width: 80px;
+}
+
+.fot-end {
+    height: 70px;
+    width: 100%;
+    background-color: #132f63;
+    font-size: 20px;
+    color: #b0a6a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

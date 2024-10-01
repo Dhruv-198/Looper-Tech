@@ -1,0 +1,688 @@
+@media screen and (max-width: 320px) {
+  .main-1 {
+    height: 20vh;
+    width: 100%;
+  }
+  /******************** MAIN-PAGE-2  ******************/
+  #text2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    padding: 20px 0px 0px 0px;
+    height: 50px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .main-1 {
+    height: 26vh;
+    width: 100%;
+  }
+  .logo a > img {
+    height: 50px;
+    width: 80px;
+  }
+  .logo-2 {
+    margin-left: -30px;
+  }
+  .main1-details {
+    padding-top: 0px;
+  }
+  .main1-details h1 {
+    width: 80%;
+    font-size: 20px;
+  }
+  .para {
+    font-size: 12px;
+  }
+  #btn-det button {
+    padding: 5px;
+    font-size: 15px;
+    width: 100px;
+  }
+  /*********************** MAIN-PAGE-2  ******************************/
+  #text2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    padding: 20px 0px 0px 0px;
+    height: 50px;
+  }
+
+  #CARDS {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .box {
+    height: 35vh;
+    width: 100%;
+  }
+  #box1 {
+    margin-top: 20px;
+  }
+  #box2 {
+    margin-top: 20px;
+  }
+  #box3 {
+    margin-top: 20px;
+  }
+  #box4 {
+    margin-top: 20px;
+  }
+  
+  /************************************ SERVICE  ***********************************/
+
+  .text1 {
+    margin-top: 10%;
+    font-size: 18px;
+  }
+  
+  .text2 {
+    font-size: 15px;
+  }
+  /*********************** why trust us? ********************************/
+  #wy-tr-us p {
+    font-size: 30px;
+  }
+  #customize {
+    margin-top: 30px;
+  }
+  #wtu-image img {
+    height: 150px;
+    width: 150px;
+    outline: 5px dashed #1d81d3;
+    outline-offset: 5px;
+  }
+  #experience img {
+    height: 15px;
+    width: 15px;
+  }
+  #experience p {
+    font-size: 10px;
+    padding-left: 0px;
+  }
+  #secure img {
+    height: 15px;
+    width: 15px;
+  }
+  #secure p {
+    font-size: 10px;
+    padding-right: 0px;
+  }
+  .cust-detail {
+    font-size: 10px;
+  }
+  /******************************* OUR PORTFOLIO  *****************************/
+
+  #but button {
+    margin-left: 10px;
+    padding: 5px 12px 5px 12px;
+    font-size: 12px;
+  }
+  #Portfolio-images {
+    width: 100%;
+  }
+  #Portfolio-images img {
+    height: 200px;
+    width: 80%;
+    margin-top: 30px;
+  }
+
+  /*********************** COMPANY  **********************************/
+  .company {
+    height: 210px;
+  }
+  #com-txt {
+    font-size: 15px;
+  }
+  #com-logo img {
+    height: 100px;
+    width: 60px;
+    padding: 5px;
+  }
+
+  
+/********************************************************* Comapny-Events  *******************************************/
+.event-1 {
+  height: 300px;
+  width: 100%;
+}
+
+.event-2 {
+  height: 300px;
+  width: 100%;
+}
+
+.event-3 {
+  height: 300px;
+  width:100%;
+}
+
+  /********************************************* Team Member  ****************************************/
+  #particles-js {
+    height: 210vh;
+    width: 100%;
+  }
+  .CARDS .container .card {
+    position: relative;
+    width: 200px;
+    height: 300px;
+  }
+  /******************************************************** TESTIMONIALS  *****************************************************/
+  #card-1 {
+    margin-top: 20px;
+  }
+ 
+
+/********************************************* FAQS *****************************************/
+
+#faqs button {
+  font-size: 15px;
+
+}
+#faqs i {
+  font-size: 15px;
+}
+  /************************************************* DISCUSS-PROJECT  *********************************************************/
+  .discuss {
+    height: 300px;
+    width: 100%;
+  }
+  .discuss h1 {
+    font-size: 25px;
+  }
+  .discuss p {
+    font-size: 16px;
+  }
+  /********************************************************** footer  ***********************************************************/
+  .fot-end {
+    height: 30px;
+    font-size: 15px;
+  }
+  #fot-1 {
+    width: 100%;
+  }
+  #fot-2 {
+    margin-top: 40px;
+    width: 100%;
+  }
+  #fot-3 {
+    margin-top: 40px;
+    width: 100%;
+  }
+  #fot-4 {
+    margin-top: 40px;
+    width: 100%;
+  }
+  #fot-img1 {
+    height: 80px;
+    width: 80px;
+  }
+  /***************************************************** EVENTS-PAGE  **************************************************************/
+
+  /************************************************ Event-Main  **************************************/
+  .event-main {
+    height: 590px;
+    width: 100%;
+  }
+  .event-main h1 {
+    font-size: 25px;
+  }
+  .event-main p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .main-1 {
+    height: 34vh;
+    width: 100%;
+  }
+  .logo a > img {
+    height: 50px;
+    width: 80px;
+  }
+  .logo-2 {
+    margin-left: -30px;
+  }
+  .main1-details {
+    padding-top: 20px;
+  }
+  .main1-details h1 {
+    width: 80%;
+    font-size: 30px;
+  }
+  .para {
+    font-size: 18px;
+  }
+  #btn-det button {
+    padding: 8px;
+    font-size: 18px;
+    width: 120px;
+  }
+
+  
+  /************************************ SERVICE  ***********************************/
+
+  .text1 {
+    margin-top: 10%;
+    font-size: 22px;
+  }
+  .text2 {
+    font-size: 15px;
+  }
+  /******************* why trust us? *************************/
+  #wy-tr-us p {
+    font-size: 40px;
+  }
+  #customize {
+    margin-top: 50px;
+  }
+  #wtu-image img {
+    height: 200px;
+    width: 200px;
+  }
+  #experience img {
+    height: 20px;
+    width: 20px;
+  }
+  #experience p {
+    font-size: 15px;
+    padding-left: 5px;
+  }
+  #secure img {
+    height: 20px;
+    width: 20px;
+  }
+  #secure p {
+    font-size: 15px;
+    padding-right: 5px;
+  }
+  .cust-detail {
+    font-size: 12px;
+  }
+
+  #CARDS {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+
+  .box {
+    height: 30vh;
+    width: 100%;
+    margin: 20px;
+  }
+
+  /******************************* OUR PORTFOLIO  *****************************/
+
+  #but button {
+    margin-left: 18px;
+    padding: 5px 18px 5px 18px;
+    font-size: 18px;
+  }
+  #Portfolio-images {
+    width: 100%;
+  }
+  #Portfolio-images img {
+    height: 300px;
+    width: 80%;
+    margin-top: 40px;
+  }
+
+  /*********************** COMPANY  **********************************/
+  .company {
+    height: 250px;
+  }
+  #com-txt {
+    font-size: 20px;
+  }
+  #com-logo img {
+    height: 100px;
+    width: 80px;
+    padding: 10px;
+  }
+  /********************************************* Team Member  ****************************************/
+  #particles-js {
+    height: 110vh;
+    width: 100%;
+  }
+  .CARDS .container .card {
+    position: relative;
+    width: 150px;
+    height: 250px;
+  }
+
+  /* ******************************************************* TESTIMONIALS  **************************************************** */
+  #card-1 {
+    margin-top: 20px;
+  }
+
+
+  /********************************************* FAQS *****************************************/
+
+#faqs button {
+  font-size: 18px;
+
+}
+#faqs i {
+  font-size: 18px;
+}
+  /************************************************* DISCUSS-PROJECT  *********************************************************/
+  .discuss {
+    height: 350px;
+    width: 100%;
+  }
+  .discuss h1 {
+    font-size: 45px;
+  }
+  .discuss p {
+    font-size: 20px;
+  }
+  /************************ FOOTER  *********************************/
+  .fot-end {
+    height: 35px;
+    font-size: 15px;
+  }
+  #fot-1 {
+    width: 60%;
+  }
+  #fot-2 {
+    margin-top: 40px;
+    width: 50%;
+  }
+  #fot-3 {
+    margin-top: 40px;
+    width: 50%;
+  }
+  #fot-4 {
+    margin-top: 40px;
+    width: 100%;
+  }
+  #fot-img1 {
+    height: 80px;
+    width: 80p;
+  }
+
+  /***************************************************** EVENTS-PAGE  **************************************************************/
+
+  /************************************************ Event-Main  **************************************/
+  .event-main {
+    height: 590px;
+    width: 100%;
+  }
+  .event-main h1 {
+    font-size: 40px;
+  }
+  .event-main p {
+    font-size: 22px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main-1 {
+    height: 50vh;
+    width: 100%;
+  }
+  .logo a > img {
+    height: 50px;
+    width: 80px;
+  }
+  .logo-2 {
+    margin-left: -30px;
+  }
+  .main1-details {
+    padding-top: 20px;
+  }
+  .main1-details h1 {
+    width: 80%;
+    font-size: 42px;
+  }
+  .para {
+    font-size: 20px;
+  }
+  #btn-det button {
+    padding: 10px;
+    font-size: 20px;
+    width: 130px;
+  }
+  #navbarSupportedContent > ul > li > a {
+    font-size: 20px;
+  }
+  /************************* MAIN-1  *****************************/
+  #CARDS {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  .box {
+    height: 30vh;
+    width: 42%;
+    margin: 20px;
+  }
+  
+  /************************************ SERVICE  ***********************************/
+
+  .text1 {
+    margin-top: 10%;
+    font-size: 22px;
+  }
+  .text2 {
+    font-size: 18px;
+  }
+  /****************************** WHY TRUST-US ??  *********************************/
+  #wy-tr-us p {
+    font-size: 50px;
+  }
+
+  #wtu-image img {
+    height: 350px;
+    width: 350px;
+  }
+  #experience img {
+    height: 30px;
+    width: 30px;
+  }
+  #experience p {
+    font-size: 22px;
+    padding-left: 12px;
+  }
+  #secure img {
+    height: 30px;
+    width: 30px;
+  }
+  #secure p {
+    font-size: 22px;
+    padding-right: 12px;
+  }
+  .cust-detail {
+    font-size: 17px;
+  }
+  /*********************** COMPANY  **********************************/
+  .company {
+    height: 280px;
+  }
+  #com-txt {
+    font-size: 25px;
+  }
+  #com-logo img {
+    height: 80px;
+    width: 130px;
+    padding: 20px;
+  }
+  /********************************************* Team Member  ****************************************/
+  #particles-js {
+    height: 125vh;
+    width: 100%;
+  }
+  .CARDS .container .card {
+    position: relative;
+    width: 200px;
+    height: 300px;
+  }
+  /************************************************* DISCUSS-PROJECT  *********************************************************/
+  .discuss {
+    height: 380px;
+    width: 100%;
+  }
+  .discuss h1 {
+    font-size: 55px;
+  }
+  .discuss p {
+    font-size: 25px;
+  }
+
+  /********************************************* FAQS *****************************************/
+
+#faqs button {
+  font-size: 25px;
+
+}
+#faqs i {
+  font-size: 20px;
+}
+  /******************************************* FOOTER  **********************************************/
+  .fot-end {
+    height: 40px;
+    width: 100%;
+  }
+  /***************************************************** EVENTS-PAGE  **************************************************************/
+
+  /************************************************ Event-Main  **************************************/
+  .event-main {
+    height: 590px;
+    width: 100%;
+  }
+  .event-main h1 {
+    font-size: 50px;
+  }
+  .event-main p {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .main-1 {
+    height: 60vh;
+    width: 100%;
+  }
+  .logo a > img {
+    height: 50px;
+    width: 80px;
+  }
+  .logo-2 {
+    margin-left: -30px;
+  }
+  .main1-details {
+    padding-top: 20px;
+  }
+  .main1-details h1 {
+    width: 80%;
+    font-size: 42px;
+  }
+  .para {
+    font-size: 20px;
+  }
+  #btn-det button {
+    padding: 10px;
+    font-size: 20px;
+    width: 130px;
+  }
+  #navbarSupportedContent > ul > li > a {
+    font-size: 22px;
+  }
+
+  /************************************ SERVICE  ***********************************/
+
+  .text1 {
+    margin-top: 10%;
+    font-size: 28px;
+  }
+  
+  .text2 {
+    font-size: 20px;
+  }
+  /****************************** WHY TRUST-US ??  *********************************/
+  #wtu-image img {
+    height: 450px;
+    width: 450px;
+  }
+  /*********************** COMPANY  **********************************/
+  .company {
+    height: 330px;
+  }
+  #com-txt {
+    font-size: 35px;
+  }
+  #com-logo img {
+    height: 100px;
+    width: 180px;
+    padding: 20px;
+  }
+
+  /********************************************* Team Member  ****************************************/
+  #particles-js {
+    height: 105vh;
+    width: 100%;
+  }
+  .CARDS .container .card {
+    position: relative;
+    width: 250px;
+    height: 350px;
+  }
+
+  /********************************************* FAQS *****************************************/
+
+#faqs button {
+  font-size: 30px;
+
+}
+#faqs i {
+  font-size: 25px;
+}
+  /*********************************** FOOTER  ******************************************/
+  .fot-end {
+    height: 50px;
+  }
+
+  /***************************************************** EVENTS-PAGE  **************************************************************/
+
+  /************************************************ Event-Main  **************************************/
+  .event-main {
+    height: 590px;
+    width: 100%;
+  }
+  .event-main h1 {
+    font-size: 60px;
+  }
+  .event-main p {
+    font-size: 30px;
+  }
+}
+
+/* For screens larger than 992px (e.g. desktops) */
+@media (min-width: 992px) {
+  #CARDS {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+
+  .box {
+    height: 35vh;
+    width: 35%;
+    margin: 20px;
+  }
+}

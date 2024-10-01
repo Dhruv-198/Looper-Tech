@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Active::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: #1d81d3;
+    bottom: 10px;
+    left: 10%;
+  }
+/********************** Add some basic styling to the navigation ************************/
+.navbar {
+    padding: 1rem 2rem;
+}
+
+.logo-2 {
+    margin-left: -20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.offcanvas-body {
+    padding: 2rem;
+}
+
+.offcanvas-title {
+    font-size: 1.5rem;
+}
+
+#navbarSupportedContent>ul>li>a {
+    color: white;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 20px;
+    font-family: "Gilroy";
+    font-weight: bold;
+}
+
+#navbarSupportedContent-1>ul>li>a {
+    color: white;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 10px;
+    font-family: "Gilroy";
+    font-weight: bold;
+}
+
+#navbarSupportedContent-1 {
+    background-color: black;
+}
+
+#navbarSupportedContent-1>ul>li>a:hover {
+    color: #1d81d3;
+}
+
+/********************************************* NAVIGATION-HOVER=EFFECT ************************************/
+
+.left-underline-link a {
+    text-decoration: none;
+    position: relative;
+}
+
+.left-underline-link a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #1d81d3;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.4s ease-in-out;
+}
+
+.left-underline-link a:hover::before {
+    width: 80%;
+}
+
+/* ======================================== GROUP 1 =================================== */
+
+#GROUP1 {
+    height: 100VH;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(IMAGES/SERVICES/GROUP\ 1\ BG.png);
+}
+
+#text1 {
+    color: white;
+    font-size: 156px;
+    text-align: center;
+    padding: 20%;
+}
+
+/* ======================================== GROUP 2 =================================== */
+
+#GROUP2 {
+    height: auto;
+    width: 100%;
+    background-color: #000922;
+}
+
+#text2 {
+    text-align: center;
+    font-size: 73px;
+    font-weight: 600;
+    color: white;
+    padding: 3%;
+}
+
+/* Make the button container responsive */
+
+.button-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the buttons */
+
+.buttons {
+    width: 190px;
+    height: 40px;
+    font-weight: 800;
+    border-radius: 5px;
+    border: 1px solid #2c8bd4;
+    margin: 2px;
+    color: white;
+    background-color: #2c8bd4;
+}
+
+
+.buttons:hover {
+    color: #1d81d3;
+    margin-left: 20px;
+    background-color: #000922;
+    border: 1px solid #000922;
+    transition: 0.5s;
+}
+
+/* ========================= cards ================== */
+
+#CARDS {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.box {
+    height: 35vh;
+    width: 35%;
+    margin: 20px;
+    background-color: #000922;
+    border-radius: 10px;
+}
+
+#box1 {
+    background: url(IMAGES/SERVICES/Card1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box2 {
+    background-image: url(IMAGES/SERVICES/Card2.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box3 {
+    background-image: url(IMAGES/SERVICES/Card3.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box4 {
+    background-image: url(IMAGES/SERVICES/Card4.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box5 {
+    background-image: url(IMAGES/SERVICES/Card5.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box6 {
+    background-image: url(IMAGES/SERVICES/Card6.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box7 {
+    background-image: url(IMAGES/SERVICES/Card7.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box8 {
+    background-image: url(IMAGES/SERVICES/Card8.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box9 {
+    background-image: url(IMAGES/SERVICES/Card9.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box10 {
+    background-image: url(IMAGES/SERVICES/Card10.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box11 {
+    background-image: url(IMAGES/SERVICES/Card11.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box12 {
+    background-image: url(IMAGES/SERVICES/Card12.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.text1 {
+    height: 15%;
+    margin-top: 10%;
+    font-size: 33px;
+    font-weight: 800;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.436);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 {
+    height: auto;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.436);
+}
+
+/* 
+#box1:hover > .text2 {
+    display: flex;
+}
+
+#box2:hover > .text2 {
+    display: flex;
+    transition: 1s;
+}
+#box3:hover > .text2 {
+    display: flex;
+    transition: 1s;
+}
+#box4:hover > .text2 {
+    display: flex;
+    transition: 1s;
+}
+#box5:hover > .text2 {
+    display: flex;
+    transition: 1s;
+}
+#box6:hover > .text2 {
+    display: flex;
+    transition: 1s;
+}
+#box7:hover > .text2 {
+    display: flex;
+    transition: 1s;
+}
+#box8:hover > .text2 {
+    display: flex;
+    transition: 1s;
+}
+#box9:hover > .text2 {
+    display: flex;
+    transition: 1s;
+}
+#box10:hover > .text2 {
+    display: flex;
+    transition: 1s;
+}
+#box11:hover > .text2 {
+    display: flex;
+    transition: 1s;
+}
+#box12:hover > .text2 {
+    display: flex;
+    transition: 1s;
+} */
+
+/************************************************* Register-Login  **********************************************************/
+.reg-log {
+    height: 300px;
+    width: 100%;
+    background-color: #2c8bd4;
+}
+
+#btn-det button {
+    padding: 12px;
+    border: none;
+    background-color: #1d81d3;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 150px;
+}
+
+/*********************************************** FOOTER  ********************************************************************/
+
+#fot-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+#fot-2 {
+    margin-top: 0px;
+    width: 25%;
+}
+
+#fot-3 {
+    width: 25%;
+}
+
+#fot-4 {
+    width: 25%;
+}
+
+#fot-img1 {
+    height: 80px;
+    width: 80px;
+}
+
+.fot-end {
+    height: 70px;
+    width: 100%;
+    background-color: #132f63;
+    font-size: 20px;
+    color: #b0a6a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

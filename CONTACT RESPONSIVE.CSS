@@ -1,0 +1,494 @@
+
+/* =========================================================== footer ============================================================= */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /********************** footer  **************************/
+    .fot-end {
+        height: 30px;
+    }
+
+    #fot-1 {
+        width: 100%;
+    }
+
+    #fot-2 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-3 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-4 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-img1 {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /************************ FOOTER  *********************************/
+    .fot-end {
+        height: 35px;
+        font-size: 15px;
+    }
+
+    #fot-1 {
+        width: 60%;
+    }
+
+    #fot-2 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-3 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-4 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-img1 {
+        height: 80px;
+        width: 80p;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /************************ FOOTER  *********************************/
+    .fot-end {
+        height: 40px;
+        width: 100%;
+    }
+
+    #fot-1 {
+        width: 60%;
+    }
+
+    #fot-2 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-3 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-4 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-img1 {
+        height: 80px;
+        width: 80p;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    /************************ FOOTER  *********************************/
+    .fot-end {
+        height: 50px;
+        width: 100%;
+    }
+
+    #fot-1 {
+        width: 60%;
+    }
+
+    #fot-2 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-3 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-4 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-img1 {
+        height: 80px;
+        width: 80p;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+    .G3-PROGRESSBAR {
+        padding-top: 10px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .G3-PROGRESSBAR .text{
+        padding: 0px;
+    }
+
+    .progressbar1 {
+        height: auto;
+        width: 45%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .progressbar1 p {
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Gilroy";
+    }
+
+    .progressbar2 {
+        height: auto;
+        width: 45%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .progressbar2 p {
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Gilroy";
+    }
+
+    .progressbar3 {
+        height: auto;
+        width: 45%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .progressbar3 p {
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Gilroy";
+    }
+
+    .progressbar4 {
+        height: auto;
+        width: 45%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .progressbar4 p {
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Gilroy";
+    }
+
+    .progress {
+        background: #000922;
+        justify-content: flex-start;
+        border-radius: 50%;
+        align-items: center;
+        position: relative;
+        display: flex;
+        height: 10px;
+        width: 200px;
+    }
+
+    .progress-1 {
+        animation: load1 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #1d81d3;
+        height: 40px;
+        width: 0;
+    }
+
+    @keyframes load1 {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 88%;
+        }
+    }
+
+    .progress-2 {
+        animation: load2 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #1d81d3;
+        height: 40px;
+        width: 0;
+    }
+
+    @keyframes load2 {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 77%;
+        }
+    }
+
+    .progress-3 {
+        animation: load3 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #1d81d3;
+        height: 40px;
+        width: 0;
+    }
+
+    @keyframes load3 {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 85%;
+        }
+    }
+
+    .progress-4 {
+        animation: load4 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #1d81d3;
+        height: 40px;
+        width: 0;
+    }
+
+    @keyframes load4 {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 95%;
+        }
+    }
+
+
+}
+
+/* For screens between 768px and 992px (e.g. tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .G3-PROGRESSBAR {
+        padding-top: 10px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .G3-PROGRESSBAR .text{
+        padding: 10px;
+    }
+
+    .progressbar1 {
+        height: auto;
+        width: 45%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .progressbar1 p {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Gilroy";
+    }
+
+    .progressbar2 {
+        height: auto;
+        width: 45%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .progressbar2 p {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Gilroy";
+    }
+
+    .progressbar3 {
+        height: auto;
+        width: 45%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .progressbar3 p {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Gilroy";
+    }
+
+    .progressbar4 {
+        height: auto;
+        width: 45%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .progressbar4 p {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Gilroy";
+    }
+
+    .progress {
+        background: #000922;
+        justify-content: flex-start;
+        border-radius: 50%;
+        align-items: center;
+        position: relative;
+        display: flex;
+        height: 10px;
+        width: 300px;
+    }
+
+    .progress-1 {
+        animation: load1 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #1d81d3;
+        height: 40px;
+        width: 0;
+    }
+
+    @keyframes load1 {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 88%;
+        }
+    }
+
+    .progress-2 {
+        animation: load2 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #1d81d3;
+        height: 40px;
+        width: 0;
+    }
+
+    @keyframes load2 {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 77%;
+        }
+    }
+
+    .progress-3 {
+        animation: load3 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #1d81d3;
+        height: 40px;
+        width: 0;
+    }
+
+    @keyframes load3 {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 85%;
+        }
+    }
+
+    .progress-4 {
+        animation: load4 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #1d81d3;
+        height: 40px;
+        width: 0;
+    }
+
+    @keyframes load4 {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 95%;
+        }
+    }
+
+}
+

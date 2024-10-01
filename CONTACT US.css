@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Active::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: #1d81d3;
+    bottom: 10px;
+    left: 10%;
+  }
+/********************** Add some basic styling to the navigation ************************/
+.navbar {
+    padding: 1rem 2rem;
+}
+
+.logo-2 {
+    margin-left: -20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.offcanvas-body {
+    padding: 2rem;
+}
+
+.offcanvas-title {
+    font-size: 1.5rem;
+}
+
+#navbarSupportedContent>ul>li>a {
+    color: white;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 20px;
+    font-family: "Gilroy";
+    font-weight: bold;
+}
+
+#navbarSupportedContent-1>ul>li>a {
+    color: white;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 10px;
+    font-family: "Gilroy";
+    font-weight: bold;
+}
+
+#navbarSupportedContent-1 {
+    background-color: black;
+}
+
+#navbarSupportedContent-1>ul>li>a:hover {
+    color: #1d81d3;
+}
+
+/********************************************* NAVIGATION-HOVER=EFFECT ************************************/
+
+.left-underline-link a {
+    text-decoration: none;
+    position: relative;
+}
+
+.left-underline-link a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #1d81d3;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.4s ease-in-out;
+}
+
+.left-underline-link a:hover::before {
+    width: 80%;
+}
+
+/* =========================================================== group 1 ============================================ */
+
+.group1 {
+    height: 60vh;
+    width: 100%;
+    background: var(--bg-clr);
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-clr);
+    margin-top: 100px;
+    padding: 50px;
+}
+
+
+:root {
+    --bg-clr: var(--bg-clr);
+    --text-clr: white;
+    --sub-text-clr: #fea1ab;
+    --white: #fff;
+    --primary-clr: none;
+}
+
+section {
+    width: 60%;
+    max-width: 100%;
+    background: #132f63;
+    margin: 25px auto;
+    /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); */
+    position: relative;
+    /* border: 1px solid #1d81d3; */
+}
+
+.contact_top {
+    padding: 50px 100px;
+    width: 100%;
+    padding-right: 150px;
+}
+
+.contact_bottom {
+    padding: 80px 0px 0px;
+    background: var(--primary-clr);
+}
+
+.contact_top .get_in_touch,
+.contact_top .address {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.contact_top .get_in_touch,
+.contact_bottom .info {
+    margin-bottom: 30px;
+}
+
+h2,
+.address ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.address ul li,
+.contact_bottom .info,
+.contact_bottom .nav_links ul {
+    display: flex;
+}
+
+.contact_bottom .info,
+.contact_bottom .nav_links ul {
+    justify-content: space-between;
+}
+
+.contact_bottom .about {
+    margin-right: 30px;
+}
+
+.address ul li .icon,
+.contact_bottom .nav_links ul li {
+    margin-right: 15px;
+}
+
+.contact_bottom .nav_links ul li a,
+.contact_bottom h2 {
+    color: var(--white);
+}
+
+.contact_bottom p {
+    color: white;
+}
+
+.contact_bottom .nav_links ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact_form {
+    width: 40%;
+    height: 120%;
+    position: absolute;
+    top: -45px;
+    right: 100px;
+    background: #1d81d3;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    padding: 6%;
+}
+
+.contact_form .input_field:not(:last-child) {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact_form .input_field input,
+.contact_form .input_field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--bg-clr);
+    transition: all 0.5s ease;
+}
+
+.contact_form .input_field input:focus,
+.contact_form .input_field textarea:focus {
+    border-color: var(--primary-clr);
+}
+
+.contact_form .input_field button {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background: black;
+    color: var(--white);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.contact_form .input_field button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 800px) {
+
+    .group1 {
+        height: 100vh;
+        width: 100%;
+        background: var(--bg-clr);
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--text-clr);
+        margin-top: 150px;
+        padding: 50px;
+    }
+
+
+    section {
+        width: 100%;
+        max-width: 100%;
+        background: #132f63;
+        margin: 25px auto;
+        /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); */
+        position: relative;
+        /* border: 1px solid #1d81d3; */
+    }
+
+    .contact_top {
+        padding: 30px 50px;
+    }
+
+    .contact_top .get_in_touch,
+    .contact_top .address {
+        width: 100%;
+    }
+
+    .contact_form {
+        width: 100%;
+        height: 125%;
+        position: relative;
+        top: 0;
+        left: 0;
+        box-shadow: 0 0 0;
+        padding: 30px 50px;
+        border-top: 2px solid var(--bg-clr)
+    }
+
+    .contact_bottom {
+        padding: 30px 50px;
+    }
+
+    .contact_bottom .info {
+        flex-direction: column;
+    }
+
+    .contact_bottom .info .about {
+        margin-bottom: 30px;
+    }
+
+    .contact_bottom .nav_links ul {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+}
+
+
+
+@media screen and (max-width: 1350px) {
+    .group1 {
+        height: 100vh;
+        width: 100%;
+        background: var(--bg-clr);
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--text-clr);
+        margin-top: 150px;
+        padding: 50px;
+    }
+
+
+    section {
+        width: 100%;
+        max-width: 100%;
+        background: #132f63;
+        margin: 25px auto;
+        /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); */
+        position: relative;
+        /* border: 1px solid #1d81d3; */
+    }
+
+    .contact_top {
+        padding: 30px 50px;
+    }
+
+    .contact_top .get_in_touch,
+    .contact_top .address {
+        width: 100%;
+    }
+
+    .contact_form {
+        width: 100%;
+        height: 125%;
+        position: relative;
+        top: 0;
+        left: 0;
+        box-shadow: 0 0 0;
+        padding: 30px 50px;
+        border-top: 2px solid var(--bg-clr)
+    }
+
+    .contact_bottom {
+        padding: 30px 50px;
+    }
+
+    .contact_bottom .info {
+        flex-direction: column;
+    }
+
+    .contact_bottom .info .about {
+        margin-bottom: 30px;
+    }
+
+    .contact_bottom .nav_links ul {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+}
+
+
+/************************************************* Register-Login  **********************************************************/
+.reg-log {
+    height: 300px;
+    width: 100%;
+    background-color: #2c8bd4;
+}
+
+#btn-det button {
+    padding: 12px;
+    border: none;
+    background-color: #1d81d3;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 150px;
+}
+
+
+
+/* ============================================= footer ========================================== */
+footer {
+    height: auto;
+}
+
+#fot-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+#fot-2 {
+    margin-top: 0px;
+    width: 25%;
+}
+
+#fot-3 {
+    width: 25%;
+}
+
+#fot-4 {
+    width: 25%;
+}
+
+#fot-img1 {
+    height: 80px;
+    width: 80px;
+}
+
+.fot-end {
+    height: 70px;
+    width: 100%;
+    background-color: #132f63;
+    font-size: 20px;
+    color: #b0a6a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

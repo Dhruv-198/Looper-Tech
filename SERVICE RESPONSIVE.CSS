@@ -1,0 +1,392 @@
+/* ================================= GROUP 1 ====================================== */
+
+/* =========== TEXT 1============ */
+
+@media (max-width: 767px) {
+    #text1 {
+        height: 100%;
+        align-items: center;
+        display: flex;
+        font-size: 64px;
+        justify-content: center;
+    }
+}
+
+/* For screens between 768px and 992px (e.g. tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #text1 {
+        height: 100%;
+        font-size: 88px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+/* For screens larger than 992px (e.g. desktops) */
+@media (min-width: 992px) {
+    #text1 {
+        height: 100%;
+        font-size: 156px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+/* ============ TEXT 2============ */
+
+@media (max-width: 767px) {
+    #text2 {
+        display: flex;
+        font-size: 33px;
+        justify-content: center;
+    }
+}
+
+/* For screens between 768px and 992px (e.g. tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #text2 {
+        font-size: 53px;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+/* For screens larger than 992px (e.g. desktops) */
+@media (min-width: 992px) {
+    #text2 {
+        font-size: 73px;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+/* ==========================================================================GROUP 2 ============================================================== */
+
+/* ======================= Make the buttons responsive ======================*/
+
+/* For screens smaller than 768px (e.g. mobile devices) */
+@media (max-width: 767px) {
+    .buttons {
+        height: 40px;
+        width: 80px;
+        margin: 5px;
+        font-weight: 600;
+    }
+
+
+    .buttons:hover {
+        color: white;
+        margin-left: 5px;
+        background-color: #000922;
+        border: 1px solid #000922;
+        transition: 0.5s;
+    }
+}
+
+/* For screens between 768px and 992px (e.g. tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .buttons {
+        height: 40px;
+        width: 150px;
+        margin: 10px 10px;
+        font-weight: 700;
+    }
+
+    .buttons:hover {
+        color: white;
+        margin-left: 10px;
+        background-color: #000922;
+        border: 1px solid #000922;
+        transition: 0.5s;
+    }
+}
+
+/* For screens larger than 992px (e.g. desktops) */
+@media (min-width: 992px) {
+    .buttons {
+        height: 40px;
+        width: 170px;
+        margin: 0px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
+
+    .buttons:hover {
+        background-color: #000922;
+    }
+}
+
+
+/* ============================================ cards ====================================== */
+
+/* For screens smaller than 768px (e.g. mobile devices) */
+@media (max-width: 767px) {
+    #CARDS {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .box {
+        height: 30vh;
+        width: 100%;
+        margin: 20px;
+        background-color: #000922;
+    }
+
+    .text1 {
+        height: 15%;
+        margin-top: 10%;
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.436);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .text2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        text-align: center;
+        padding: 30px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.436);
+    }
+}
+
+/* For screens between 768px and 992px (e.g. tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #CARDS {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .box {
+        height: 30vh;
+        width: 42%;
+        margin: 20px;
+        background-color: #000922;
+    }
+
+    .text1 {
+        height: 15%;
+        margin-top: 10%;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.436);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        text-align: center;
+        padding: 30px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.436);
+    }
+}
+
+/* For screens larger than 992px (e.g. desktops) */
+@media (min-width: 992px) {
+    #CARDS {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .box {
+        height: 35vh;
+        width: 35%;
+        margin: 20px;
+        background-color: #000922;
+    }
+
+    .text1 {
+        height: 15%;
+        margin-top: 10%;
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.436);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        padding: 30px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.436);
+    }
+}
+
+
+
+
+/* =========================================================== footer ============================================================= */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /********************** footer  **************************/
+    .fot-end {
+        height: 30px;
+    }
+
+    #fot-1 {
+        width: 100%;
+    }
+
+    #fot-2 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-3 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-4 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-img1 {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /************************ FOOTER  *********************************/
+    .fot-end {
+        height: 35px;
+        font-size: 15px;
+    }
+
+    #fot-1 {
+        width: 60%;
+    }
+
+    #fot-2 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-3 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-4 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-img1 {
+        height: 80px;
+        width: 80p;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /************************ FOOTER  *********************************/
+    .fot-end {
+        height: 40px;
+        width: 100%;
+    }
+
+    #fot-1 {
+        width: 60%;
+    }
+
+    #fot-2 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-3 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-4 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-img1 {
+        height: 80px;
+        width: 80p;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    /************************ FOOTER  *********************************/
+    
+    .fot-end {
+        height: 50px;
+        width: 100%;
+    }
+
+    #fot-1 {
+        width: 60%;
+    }
+
+    #fot-2 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-3 {
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    #fot-4 {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #fot-img1 {
+        height: 80px;
+        width: 80p;
+    }
+}
